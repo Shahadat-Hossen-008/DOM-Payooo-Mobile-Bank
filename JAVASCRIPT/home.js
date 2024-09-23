@@ -9,9 +9,9 @@ document.getElementById('add-money').addEventListener('click', function(event){
     const newBalance = parseFloat(balance);
     const newAmount = newValue + newBalance
     document.getElementById("current-balance").innerText = newAmount;
-    
-  }
-  else{
+    document.getElementById("input-pin").value= "";
+    }
+      else{
     alert('Failed to add money.Please try again')
   }
     
