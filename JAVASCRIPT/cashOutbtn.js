@@ -9,7 +9,7 @@ if(pinNumber==="1234"){
     const balance = document.getElementById("current-balance").innerText;
     const newBalance = parseFloat(balance);
     const newAmount = newBalance - cashOutNumber;
-    document.getElementById("current-balance").innerText = newAmount;
+    document.getElementById("current-balance").innerText = newAmount
 }
 else{
     alert("Cash out failed. Try again")
