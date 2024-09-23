@@ -6,7 +6,7 @@ document.getElementById("btn-login").addEventListener("click", function(event){
 
     // wrong way to validate
     if(pinNumber==='1234' && phoneNumber==='019776655'){
-        window.location.href = '/home.html'
+        window.location.href = './home.html'
     }
     else{
         alert("Wrong password or number")
